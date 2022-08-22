@@ -1,0 +1,17 @@
+{
+	"keys": [
+		{
+			"kty": "oct",
+			"alg": "A128KW",
+			"k": "c29tZS1zZWNyZXQtc2hpdC1nb2VzLWhlcmU=",
+			"kid": "kid_access_token"
+		},
+		{
+			"kty": "oct",
+			"k": "c29tZS1zZWNyZXQtcmVmcmVzaC10b2tlbi1zaGl0",
+			"kid": "Kid_refresh_token",
+			"alg": "HS256"
+		}
+	]
+}
+
